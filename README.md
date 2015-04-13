@@ -14,7 +14,7 @@
 
 **Assumptions:**
 
-1) The grader will not only pull down the code base here (run_analysis.R) yet will also obtain the "Dataset" as well as it contains the reference data needed and consumed by the "run_analysis.R" code.
+1) The grader will not only pull down the code base here (run_analysis.R) yet will also obtain/download the "Dataset" from here too as it contains the reference data needed and consumed by the "run_analysis.R" code.
 
 **Instructions:**
 
@@ -27,3 +27,8 @@
 </ol>
 
 2) The entry point for executing run_analysis.R is a function called **"main()"**.
+
+3) The **Dataset** directory must be in the root of the working directory. For example if you working directory is named "getting_and_cleaning_data" within that directory one would find the **Dataset** directory and its files.
+
+
+**Please refer to the Codebook.md for detailed information about the tidy data output**
