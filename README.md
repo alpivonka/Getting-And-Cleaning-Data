@@ -12,7 +12,7 @@ Please note:
 
 4) Based on #2 above I have chosen the “wide” approach since it allows for easier calculations of the data then does the “long” form. Yet with that in mind, I have also attempted the long approach as well to better understand how it is derived.  You will see two different output files, yet please only judge the code and it's output on the wide approach. 
 
-Assumptions:
+** Assumptions: **
 
 1) The grader will not only pull down the code base here (run_analysis.R) yet will also obtain the "Dataset" as well as it contains the reference data needed and consumed by the "run_analysis.R" code.
 
