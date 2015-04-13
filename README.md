@@ -1,6 +1,6 @@
 # Getting-And-Cleaning-Data
 
-Please note: 
+**Please note:** 
 
 1) This repository has limited checkins due to it is the final release and all subsequent checkins where performed with the following repository:
 -- https://github.com/alpivonka/getdata-010_course_project
@@ -16,10 +16,12 @@ Please note:
 
 1) The grader will not only pull down the code base here (run_analysis.R) yet will also obtain the "Dataset" as well as it contains the reference data needed and consumed by the "run_analysis.R" code.
 
-Instructions:
+**Instructions:**
 
 “run_analysis.R” is the only “R” code needed and is dependent upon the following packages being installed:
-1) plyr
-2) dplyr
-3) tidyr
-4) utils
+<ol> 
+<li>plyr</li>
+<li>dplyr</li>
+<li>tidyr</li>
+<li>utils</li>
+</ol>
