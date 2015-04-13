@@ -18,10 +18,12 @@
 
 **Instructions:**
 
-“run_analysis.R” is the only “R” code needed and is dependent upon the following packages being installed:
+1) “run_analysis.R” is the only “R” code needed and is dependent upon the following packages being installed:
 <ol> 
 <li>plyr</li>
 <li>dplyr</li>
 <li>tidyr</li>
 <li>utils</li>
 </ol>
+
+2) The entry point for executing run_analysis.R is a function called **"main()"**.
