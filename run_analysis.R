@@ -2,7 +2,7 @@
 # plyr
 # dplyr
 # tidyr
-# utils
+# utils 
 
 library(plyr)
 library(dplyr)
@@ -23,6 +23,10 @@ main<-function(){
   
   featuresLoc<-"Dataset/features.txt"
   activity_labelsLoc<-"Dataset/activity_labels.txt"
+  
+  if(!file.exists("Dataset") |!file.exists("Dataset/test") | !file.exists("Dataset/train")){
+    stop("No Dataset directory exists. Please obtain the Dataset")
+  }
   
   # Load and join the Y test and train together
   activities<-join_Y_test2train_labels(y_trainLoc,y_testLoc,activity_labelsLoc)
