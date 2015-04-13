@@ -12,3 +12,22 @@ a code book that describes the variables, the data, and any transformations or w
 <li>record teh data to file</li>
 <li>
 </ol>
+
+**tidy.txt MetaData**(#5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.) 
+
+  **Column naming**
+  <ol>
+    <li>activity</li>
+    <li>subject<li>
+  </ol>
+  
+  The rest of the columns are obtained from cleaning up the column heading names which were:
+  <ol>
+  <li> obtained via a grep command only going after the columns with the following pattern(s) mean\\(\\)|std\\(\\)</li>
+  <li> use gsub from 'mean' to 'Mean'<li>
+  <li> use gsub from 'std' to 'Std'</li>
+  <li> use gsub from '[()]' to '' remove it</li>
+  <li> use gsub from '[-]' to '_' to simplify the tall tidy</li>
+  <li> use gsub from 'BodyBody' to 'Body'
+  </ol>
+
