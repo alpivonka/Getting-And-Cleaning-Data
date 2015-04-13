@@ -18,13 +18,13 @@ a code book that describes the variables, the data, and any transformations or w
   **Column naming**
   <ol>
     <li>activity</li>
-    <li>subject<li>
+    <li>subject</li>
   </ol>
   
   The rest of the columns are obtained from cleaning up the column heading names which were:
   <ol>
   <li> obtained via a grep command only going after the columns with the following pattern(s) mean\\(\\)|std\\(\\)</li>
-  <li> use gsub from 'mean' to 'Mean'<li>
+  <li> use gsub from 'mean' to 'Mean'</li>
   <li> use gsub from 'std' to 'Std'</li>
   <li> use gsub from '[()]' to '' remove it</li>
   <li> use gsub from '[-]' to '_' to simplify the tall tidy</li>
