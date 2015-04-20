@@ -114,6 +114,8 @@ a code book that describes the variables, the data, and any transformations or w
 <li>value</li>
 </ol>
 
+
+
 at the end the end user will see the following messages to indicate the application has finished its work:
 
 [1] "Done recordinng wide data tidywide"
@@ -124,4 +126,8 @@ at the end the end user will see the following messages to indicate the applicat
 
 [1] "All done, enjoy the day."
 
+
+Through talking with other and my own work on this assignment I have found that Wide Tidy data is good for calculations and Tall Tidy data is good for presentation/summaries/graphs.
+
+I would assume that one would work to get data into a Wide Tidy state, perform any calculations needed and then utilize a Tall Tidy data set for presentation purposes.
 
