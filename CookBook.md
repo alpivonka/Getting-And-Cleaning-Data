@@ -104,7 +104,7 @@ a code book that describes the variables, the data, and any transformations or w
 </ol>
 
 
----------------**TIDY Column Names (NARROW)** NOT PART OF ASSIGNMENT this is for my educational use only ------------------------------------------------------------------------------
+---------------**TIDY Column Names (NARROW/TALL)** NOT PART OF ASSIGNMENT this is for my educational use only ------------------------------------------------------------------------------
 <ol>
 <li>subject_id </li>
 <li>activity</li>
