@@ -32,6 +32,7 @@ a code book that describes the variables, the data, and any transformations or w
   </ol>
 
 at the end the end user will see the following messages to indicate the application has finished its work:
+
 [1] "Done recordinng wide data tidywide"
 
 [1] "Done recording narrow data tidyNarrow - Not part of requirements"
