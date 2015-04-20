@@ -104,6 +104,16 @@ a code book that describes the variables, the data, and any transformations or w
 </ol>
 
 
+---------------**TIDY Column Names (NARROW)** NOT PART OF ASSIGNMENT this is for my educational use only ------------------------------------------------------------------------------
+<ol>
+<li>subject_id </li>
+<li>activity</li>
+<li>type</li> (Ftype)
+<li>stat</li> (Mean/Std)
+<li>axis</li> (X/Y/NA)
+<li>value</li>
+</ol>
+
 at the end the end user will see the following messages to indicate the application has finished its work:
 
 [1] "Done recordinng wide data tidywide"
@@ -113,4 +123,5 @@ at the end the end user will see the following messages to indicate the applicat
 [1] "Done recording tidy  -- Final out put"
 
 [1] "All done, enjoy the day."
+
 
