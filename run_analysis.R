@@ -47,8 +47,8 @@ main<-function(){
 
 #create output csv file for tidy wide data example
 recordWideData<-function(wideData){
-  write.csv(wideData,file="tidyWide.csv",)
-  print("Done recordinng wide data tidywide.csv")
+  write.table(wideData,file="tidyWide.txt",row.names=FALSE)
+  print("Done recordinng wide data tidywide")
 }
 
 #create output csv file for tidy narrow/tall data example
@@ -57,8 +57,8 @@ recordTidyNarrow<-function(narrowData){
   #View(yy)
   ya<-separate(data=yy,col=coltype, into=c("type","stat","axis"), extra="merge")
   #View(ya)
-  write.csv(ya,file="tidyNarrow.csv",)
-  print("Done recording narrow data tidyNarrow.csv - Not part of requirements")
+  write.table(ya,file="tidyNarrow.txt",row.names=FALSE)
+  print("Done recording narrow data tidyNarrow - Not part of requirements")
 }
 
 #create output for #5
@@ -66,8 +66,8 @@ recordTidyMean<-function(wideData){
   subsetForMean<-subset(wideData,select=tBodyAcc_Mean_X:fBodyGyroJerkMag_Std)
   tidy <- aggregate(subsetForMean, by=list(activity = wideData$activity,subject=wideData$subject), mean,na.rm=TRUE)
   #View(tidy)
-  write.csv(tidy,file="tidy.csv",)
-  print("Done recording tidy.csv  -- Final out put")
+  write.table(tidy,file="tidy.txt",row.names=FALSE)
+  print("Done recording tidy  -- Final out put")
   
 }
 
