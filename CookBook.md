@@ -31,3 +31,13 @@ a code book that describes the variables, the data, and any transformations or w
   <li> use gsub from 'BodyBody' to 'Body'
   </ol>
 
+at the end the end user will see the following messages to indicate the application has finished its work:
+
+[1] "Done recordinng wide data tidywide"
+
+[1] "Done recording narrow data tidyNarrow - Not part of requirements"
+
+[1] "Done recording tidy  -- Final out put"
+
+[1] "All done, enjoy the day."
+
