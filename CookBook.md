@@ -108,9 +108,9 @@ a code book that describes the variables, the data, and any transformations or w
 <ol>
 <li>subject_id </li>
 <li>activity</li>
-<li>type</li> (Ftype)
-<li>stat</li> (Mean/Std)
-<li>axis</li> (X/Y/NA)
+<li>type == (Ftype)</li> 
+<li>stat == (Mean/Std)</li> 
+<li>axis == (X/Y/NA)</li> 
 <li>value</li>
 </ol>
 
