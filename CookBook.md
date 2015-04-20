@@ -31,7 +31,7 @@ a code book that describes the variables, the data, and any transformations or w
   <li> use gsub from 'BodyBody' to 'Body'
   </ol>
 
-
+---------------**TIDY Column Names (WIDE)** ------------------------------------------------------------------------------
 <ol>
 <li>subject_id           </li>
 <li>activity             </li>
