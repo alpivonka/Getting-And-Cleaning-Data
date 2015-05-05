@@ -9,7 +9,7 @@ a code book that describes the variables, the data, and any transformations or w
 <li>Combine the x_train and x_test data and apply the headers ( Here we narrow the data set going after the columns that only contain mean and std) </li>
 <li>Combine the all the data together</li>
 <li>clean up the column heading names</li>
-<li>record teh data to file</li>
+<li>record teh data to file</li> 
 <li>
 </ol>
 
