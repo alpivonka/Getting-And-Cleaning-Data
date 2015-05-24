@@ -1,7 +1,7 @@
 
 features -- 561 features
 
-
+x
 x_train contains 7352 Observations  (561 columns)		ties to the features
 y_train contains 7352 Observations of Activity Labels (1-6)	ties to the activity_labels by ID
 subject_train 1-30 of 7352 Observations				Ties to the subject who carried out the experiment
