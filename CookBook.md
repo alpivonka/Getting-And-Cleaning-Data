@@ -1,4 +1,4 @@
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
+A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
 
 
 **The main fuction** main(). Simple and clear. It runs the show, it knows where the dataset resides and it works with the other defined functions to get the job(s) done. I'm doing to take the comment right out of the code to describe the transforamtion.
