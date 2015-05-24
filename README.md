@@ -1,6 +1,6 @@
 # Getting-And-Cleaning-Data
 
-**Please note:** 
+**Please note: This project was completed last month. Yet due to vacations, I missed the dead line to submit the project** 
 
 1) This repository has limited checkins due to it is the final release and all subsequent checkins where performed with the following repository:
 -- https://github.com/alpivonka/getdata-010_course_project
