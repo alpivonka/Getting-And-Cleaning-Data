@@ -1,8 +1,4 @@
 #assumption that all required Libraries have been installed
-# plyr
-# dplyr
-# tidyr
-# utils  
 
 library(plyr)
 library(dplyr)
